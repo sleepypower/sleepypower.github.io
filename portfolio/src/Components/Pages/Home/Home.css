@@ -1,0 +1,289 @@
+.home-container{
+    padding: 0 30px;
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    align-items: flex-start;
+    background-color: #F7F7F7;
+}
+
+/* Title*/
+.home-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    width: 100%;
+    
+
+}
+
+.home-title-text{
+    font-size: 5rem;
+    color: #FF5925;
+    margin: 0 0;
+    text-align: start;
+    flex: 1 0 0
+}
+
+.home-subtitle-text {
+    max-width: 500px;
+    font-size: 2rem;
+    color: #373B43;
+    text-align: start;
+    flex: 1 0 0
+}
+
+.home-subtitle-text span{ 
+    color: #3E83FB;
+}
+
+
+/* About me */
+
+.home-aboutme-container {
+    color: #373B43;
+    margin-bottom: 30px;
+}
+
+.home-aboutme-container h2{
+    color: #373B43;
+    flex: 3 0 0;
+}
+
+.home-aboutme-container p{
+    color: #373B43;
+    flex: 7 0 0;
+    margin: 0 auto;
+}
+
+
+
+/* Tools */
+
+.home-tools-container{
+    color: #373B43;
+    text-align: start;
+    font-size: 1rem;
+}
+
+.home-tools-container h2{
+    flex: 3 0 0;
+}
+
+
+.home-tools-view {
+    
+    flex: 7 0 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+    
+}
+
+/* Bio */
+.home-bio-container {
+    color: #373B43;
+}
+
+.home-contact-container{
+    color: #373B43;
+}
+
+.home-bio-flex-container {
+    display: flex;
+    
+}
+
+.home-bio-flex-container h3{
+    color: #3E83FB;
+    flex: 2 0 0;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    
+}
+
+.home-bio-flex-container p{
+    flex: 9 0 0;
+    
+    line-height: 200%;
+    
+}
+
+/* Contact */
+
+.home-contact-container {
+    color: #373B43;
+    
+}
+
+/*Media Querys*/
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    /* Title */
+    .home-title-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 500px;
+    }
+
+    .home-title-text{
+        text-align: center;
+        font-size: 6rem;
+        
+    }
+
+    .home-subtitle-text{
+        margin: auto;
+        font-size: 1.7rem;
+    }
+
+    .home-tools-view {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: flex-start;
+    }
+
+    /* About Me */
+    .home-aboutme-container{
+        display: flex;
+    }
+
+    .home-aboutme-container h2{
+        flex-shrink: 0;
+        font-size: 2.3rem;
+        line-height: 50%;
+    }
+
+    .home-aboutme-container p{
+        font-size: 1.3rem;
+        flex-shrink: 2;
+        margin: 0 20px;
+    }
+
+    /* Tools */
+    .home-tools-container {
+        display: flex;
+    }
+    
+    .home-tools-container h2{
+        font-size: 2.3rem;
+        
+    }
+
+    .home-tools-container p {
+        font-size: 1.5rem;
+    }
+
+    .home-tools-view {
+        justify-content: center;
+        /* max-width: 600px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Bio */
+    .home-bio-container h2 {
+        font-size: 2.3rem;
+        
+    }
+
+    .home-tools-container p {
+        font-size: 1.5rem;
+    }
+
+    .home-bio-flex-container h3{
+        font-size: 1.6rem;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    .home-bio-flex-container p{
+        font-size: 1.2rem;
+    }
+
+    /* Contact */
+    .home-contact-container h2{
+        font-size: 2.3rem;
+    }
+
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    /* Title */
+    .home-title-text{
+        font-size: 8rem;
+    }
+    
+    .home-subtitle-text{
+        font-size: 2rem;
+    }
+    
+    /* About Me */
+    .home-aboutme-container h2{
+        font-size: 3rem;
+    }
+
+    .home-aboutme-container p{
+        font-size: 1.5rem;
+    }
+
+    .font-m-plus-rounded h2{
+        font-size: 3rem;
+    }
+
+    /* Tools */
+    .home-tools-container h2{
+        font-size: 3rem;
+    }
+
+    .home-tools-container p{
+        font-size: 1.5rem;
+    }
+
+    /* Bio */
+    .home-bio-container h2{
+        font-size: 3rem;   
+    }
+
+    .home-bio-flex-container h3{
+        font-size: 2rem;
+    }
+
+    .home-bio-flex-container p{
+        font-size: 1.5rem;
+    }
+
+    /* Contact */
+    .home-contact-container h2{
+        font-size: 3rem;
+    }
+
+    
+
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1240px) {
+    .home-title-text{
+        font-size: 8.5rem;
+    }
+
+    .home-subtitle-text {
+        font-size: 2.5rem;
+    }
+
+    
+}

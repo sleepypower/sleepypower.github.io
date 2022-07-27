@@ -1,0 +1,10 @@
+.skills-container{
+    padding: 0 30px;
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    align-items: flex-start;
+    background-color: #F7F7F7;
+}
