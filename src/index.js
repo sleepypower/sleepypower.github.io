@@ -11,16 +11,20 @@ import {
 import Home from './Components/Pages/Home/Home';
 import Navbar from './Components/Navbar';
 import Skills from './Components/Pages/Skills/Skills';
+import Projects from './Components/Pages/Projects/Projects';
+import ParticleBackground from './Components/ParticleBackground';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Navbar />
     <Routes>
-
       {/* All routes go inside here */}
       <Route path="/" element={<Home />} />
       <Route path="/skills" element={<Skills />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/app" element={<App />} />
 
     </Routes>
   </BrowserRouter>

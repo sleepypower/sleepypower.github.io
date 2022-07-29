@@ -1,0 +1,18 @@
+.mailbutton-container {
+  display: flex;
+  width: 80%;
+  background-color: #3e83fb;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  border: 0px solid #3e83fb;
+  border-radius: 16px;
+  padding: 0.9rem 0;
+  margin: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .mailbutton-container {
+    font-size: 1.3rem;
+  }
+}

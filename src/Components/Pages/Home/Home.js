@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../Navbar'
 import Tool from '../../Tool'
 import './Home.css'
-import { SiPython, SiJava, SiRstudio, SiFlutter, SiReact, SiCss3, SiPostgresql } from "react-icons/si";
+import { SiPython, SiJava, SiRstudio, SiFlutter, SiReact, SiCss3, SiPostgresql, SiLinkedin, SiGithub } from "react-icons/si";
 import MailButton from '../../MailButton';
 
 const Home = () => {
@@ -20,8 +20,8 @@ const Home = () => {
             </div>
 
             {/* About Me */}
-            <div className='home-aboutme-container font-open-sans'>
-                <h2 className='font-m-plus-rounded'>
+            <div className='home-aboutme-container font-open-sans '>
+                <h2 className='font-m-plus-rounded home-underline home-underline home-underline'>
                     About me
                 </h2>
                 <p>
@@ -30,12 +30,11 @@ const Home = () => {
                     I love to make apps and web-pages as a hobby. I'm also working
                     on my dating app called glera.
                 </p>
-
             </div>
 
             {/* Tools */}
             <div className='home-tools-container font-open-sans'>
-                <h2 className='font-m-plus-rounded'>
+                <h2 className='font-m-plus-rounded home-underline'>
                     Skills
                 </h2>
                 {/* <p>
@@ -54,11 +53,11 @@ const Home = () => {
 
             {/* Bio */}
             <div className='home-bio-container font-open-sans'>
-                <h2 className='font-m-plus-rounded'>
+                <h2 className='font-m-plus-rounded home-underline'>
                     Bio
                 </h2>
                 <div className='home-bio-list'>
-                    <div className='home-bio-flex-container'>
+                    <div className='home-bio-flex-container '>
                         <h3>2019</h3>
                         <p> Graduated school at <span>Gimnasio Vermont</span> in Bogotá, Colombia</p>
                     </div>
@@ -68,7 +67,7 @@ const Home = () => {
                     </div>
                     <div className='home-bio-flex-container'>
                         <h3>2019</h3>
-                        <p>Studying Applied Math and Computer Science at Universidad del Rosario</p>
+                        <p>Studying Applied Mathematics and Computer Science at Universidad del Rosario</p>
                     </div>
                     <div className='home-bio-flex-container'>
                         <h3>2022</h3>
@@ -78,26 +77,32 @@ const Home = () => {
                 </div>
             </div>
 
+            {/* Projects */}
+            <div>
+                Click here to check my projects
+            </div>
+
             {/* Contact */}
             <div className='home-contact-container font-open-sans'>
-                <h2 className='font-m-plus-rounded'>
+                <h2 className='font-m-plus-rounded home-underline'>
                     Contact
                 </h2>
-                <h3>Lets get in touch!</h3>
+                <h3 className='font-m-plus-rounded'>Lets get in touch!</h3>
                 <div>
                     <MailButton />
                 </div>
             </div>
 
+            {/* Social Media */}
+            <div className='home-socialmedia-container'>
+                <a href='https://www.linkedin.com/in/david-mel%C3%A9ndez-439901204/' target="_blank"><SiLinkedin size={30} /></a>
+                <a href='https://github.com/sleepypower/' target="_blank"><SiGithub size={30} /></a>
+            </div>
+
+
             <div className='footer font-open-sans'>
                 I made this website with ReactJs
             </div>
-
-            you can also check my linked in and github
-            <div className=''>
-
-            </div>
-
 
         </div>
     )
