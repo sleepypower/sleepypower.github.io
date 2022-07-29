@@ -57,23 +57,18 @@ const Home = () => {
                     Bio
                 </h2>
                 <div className='home-bio-list'>
-                    <div className='home-bio-flex-container '>
-                        <h3>2019</h3>
-                        <p> Graduated school at <span>Gimnasio Vermont</span> in Bogotá, Colombia</p>
-                    </div>
                     <div className='home-bio-flex-container'>
-                        <h3>2019</h3>
-                        <p>CS Bridge: Java Software Development Course taught by Stanford University at Universidad de los Andes</p>
+                        <h3>2022</h3>
+                        <p> Part time job at Atynea as Full Stack Developer</p>
                     </div>
                     <div className='home-bio-flex-container'>
                         <h3>2019</h3>
                         <p>Studying Applied Mathematics and Computer Science at Universidad del Rosario</p>
                     </div>
                     <div className='home-bio-flex-container'>
-                        <h3>2022</h3>
-                        <p> Part time job at Atynea as Full Stack Developer</p>
+                        <h3>2019</h3>
+                        <p>CS Bridge: Java Software Development Course taught by Stanford University at Universidad de los Andes</p>
                     </div>
-
                 </div>
             </div>
 
