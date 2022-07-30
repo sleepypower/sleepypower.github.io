@@ -13,13 +13,11 @@ import Navbar from './Components/Navbar';
 import Skills from './Components/Pages/Skills/Skills';
 import Projects from './Components/Pages/Projects/Projects';
 import ParticleBackground from './Components/ParticleBackground';
-import ParticleBG from './Components/ParticleBG';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <ParticleBG />
     <Navbar />
     <Routes>
       {/* All routes go inside here */}

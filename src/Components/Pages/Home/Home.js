@@ -5,9 +5,6 @@ import './Home.css'
 import { SiPython, SiJava, SiRstudio, SiFlutter, SiReact, SiCss3, SiPostgresql, SiLinkedin, SiGithub } from "react-icons/si";
 import MailButton from '../../MailButton';
 
-import Particles from 'react-tsparticles';
-import particlesConfig from '../../particlesConfig';
-
 const Home = () => {
     return (
         <div className='home-container'>
@@ -22,9 +19,6 @@ const Home = () => {
                 </h2>
             </div>
 
-            <div className='home-profile-img'>
-                <img src='./profilePicture.jpeg'></img>
-            </div>
             {/* About Me */}
             <div className='home-aboutme-container font-open-sans '>
                 <h2 className='font-m-plus-rounded home-underline home-underline home-underline'>
@@ -63,25 +57,30 @@ const Home = () => {
                     Bio
                 </h2>
                 <div className='home-bio-list'>
+                    <div className='home-bio-flex-container '>
+                        <h3>2019</h3>
+                        <p> Graduated school at <span>Gimnasio Vermont</span> in Bogotá, Colombia</p>
+                    </div>
                     <div className='home-bio-flex-container'>
-                        <h3>2022</h3>
-                        <p> Part time job at Atynea as Full Stack Developer</p>
+                        <h3>2019</h3>
+                        <p>CS Bridge: Java Software Development Course taught by Stanford University at Universidad de los Andes</p>
                     </div>
                     <div className='home-bio-flex-container'>
                         <h3>2019</h3>
                         <p>Studying Applied Mathematics and Computer Science at Universidad del Rosario</p>
                     </div>
                     <div className='home-bio-flex-container'>
-                        <h3>2019</h3>
-                        <p>CS Bridge: Java Software Development Course taught by Stanford University at Universidad de los Andes</p>
+                        <h3>2022</h3>
+                        <p> Part time job at Atynea as Full Stack Developer</p>
                     </div>
+
                 </div>
             </div>
 
             {/* Projects */}
-            {/* <div>
+            <div>
                 Click here to check my projects
-            </div> */}
+            </div>
 
             {/* Contact */}
             <div className='home-contact-container font-open-sans'>
@@ -101,9 +100,9 @@ const Home = () => {
             </div>
 
 
-            {/* <div className='footer font-open-sans'>
+            <div className='footer font-open-sans'>
                 I made this website with ReactJs
-            </div> */}
+            </div>
 
         </div>
     )

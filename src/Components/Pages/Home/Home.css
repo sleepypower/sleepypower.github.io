@@ -6,7 +6,7 @@
   flex-direction: column;
   flex-basis: auto;
   align-items: flex-start;
-  z-index: 1;
+  background-color: #f7f7f7;
 }
 
 .home-underline {
@@ -41,19 +41,6 @@
 
 .home-subtitle-text span {
   color: #3e83fb;
-}
-
-/* Profile Picture */
-.home-profile-img {
-  margin: auto;
-}
-
-.home-profile-img img {
-  border-radius: 50%;
-  object-fit: cover;
-  width: 200px;
-  height: 200px;
-  object-position: 0% 20%;
 }
 
 /* About me */
@@ -185,7 +172,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
   }
 
   .home-title-text {
