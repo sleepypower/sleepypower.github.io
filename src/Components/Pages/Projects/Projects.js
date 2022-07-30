@@ -62,7 +62,7 @@ const Projects = () => {
                         </div>
                         <div>
                             <ProjectItem
-                                body_text="For the final project of Harvard's Cs50 Course, I built a sudoku solver using python and a backtracking algorithm that tried all the possiblities until finally getting a solution"
+                                body_text="For the final project of Harvard's Cs50 Course, I built a sudoku solver using python and a backtracking algorithm that tried all the possibilities until finally getting a solution"
                                 title='Sudoku Solver'
                                 img_url={'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sudoku_resuelto_completo.png/300px-Sudoku_resuelto_completo.png'}
                                 project_url={'https://github.com/sleepypower/proyecto_medico'} />
@@ -114,7 +114,7 @@ const Projects = () => {
                         </div>
                         <div>
                             <ProjectItem
-                                body_text="For the final project of Harvard's Cs50 Course, I built a sudoku solver using python and a backtracking algorithm that tried all the possibilities until finally getting a solution"
+                                body_text="For the final project of Harvard's Cs50 Course, I built a sudoku solver using python and a backtracking algorithm that tried all the possibilities until finally getting a solution if it exists"
                                 title='Sudoku Solver'
                                 img_url={'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sudoku_resuelto_completo.png/300px-Sudoku_resuelto_completo.png'}
                                 project_url={'https://github.com/sleepypower/proyecto_medico'} />
