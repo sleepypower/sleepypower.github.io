@@ -12,7 +12,6 @@ const Home = () => {
     return (
         <div className='home-container'>
 
-
             {/* Title */}
             <div className='home-title-container font-open-sans'>
                 <h1 className='font-m-plus-rounded home-title-text' >
