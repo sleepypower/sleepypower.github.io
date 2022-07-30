@@ -14,7 +14,7 @@ const Home = () => {
 
 
             {/* Title */}
-            <div className='home-title-container font-open-sans'>
+            <div className='home-title-container font-open-sans home-background'>
                 <h1 className='font-m-plus-rounded home-title-text' >
                     Hello!
                 </h1>
@@ -27,7 +27,7 @@ const Home = () => {
                 <img src='./profilePicture.jpeg'></img>
             </div>
             {/* About Me */}
-            <div className='home-aboutme-container font-open-sans '>
+            <div className='home-aboutme-container font-open-sans home-background'>
                 <h2 className='font-m-plus-rounded home-underline home-underline home-underline'>
                     About me
                 </h2>
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
 
             {/* Tools */}
-            <div className='home-tools-container font-open-sans'>
+            <div className='home-tools-container font-open-sans home-background'>
                 <h2 className='font-m-plus-rounded home-underline'>
                     Skills
                 </h2>
@@ -59,7 +59,7 @@ const Home = () => {
             </div>
 
             {/* Bio */}
-            <div className='home-bio-container font-open-sans'>
+            <div className='home-bio-container font-open-sans home-background'>
                 <h2 className='font-m-plus-rounded home-underline'>
                     Bio
                 </h2>
@@ -85,7 +85,7 @@ const Home = () => {
             </div> */}
 
             {/* Contact */}
-            <div className='home-contact-container font-open-sans'>
+            <div className='home-contact-container font-open-sans home-background'>
                 <h2 className='font-m-plus-rounded home-underline'>
                     Contact
                 </h2>
@@ -96,7 +96,7 @@ const Home = () => {
             </div>
 
             {/* Social Media */}
-            <div className='home-socialmedia-container'>
+            <div className='home-socialmedia-container home-background'>
                 <a href='https://www.linkedin.com/in/david-mel%C3%A9ndez-439901204/' target="_blank"><SiLinkedin size={30} /></a>
                 <a href='https://github.com/sleepypower/' target="_blank"><SiGithub size={30} /></a>
             </div>

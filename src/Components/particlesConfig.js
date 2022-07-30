@@ -21,7 +21,7 @@ const particlesConfig = {
                 default: "bounce",
             },
             random: false,
-            speed: 6,
+            speed: 1.5,
             straight: false,
         },
         number: {

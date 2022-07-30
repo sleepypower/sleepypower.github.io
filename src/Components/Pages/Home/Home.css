@@ -14,6 +14,10 @@
   text-underline-offset: 10px;
 }
 
+.home-background {
+  background-color: wheat;
+}
+
 /* Title*/
 .home-title-container {
   display: flex;

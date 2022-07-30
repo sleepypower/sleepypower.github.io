@@ -39,7 +39,7 @@ const Projects = () => {
                 {/* Current Projects */}
                 <div>
 
-                    <div className='projects-personal-container font-open-sans '>
+                    <div className='projects-personal-container font-open-sans home-background'>
                         <h2 className='font-m-plus-rounded home-underline'>
                             Current Projects
                         </h2>
@@ -89,7 +89,7 @@ const Projects = () => {
                 {/* Finished* Projects */}
                 <div>
 
-                    <div className='projects-personal-container font-open-sans '>
+                    <div className='projects-personal-container font-open-sans home-background'>
                         <h2 className='font-m-plus-rounded home-underline'>
                             Finished*  Projects
                         </h2>
@@ -141,7 +141,7 @@ const Projects = () => {
                 {/* Courses */}
                 <div>
 
-                    <div className='projects-personal-container font-open-sans '>
+                    <div className='projects-personal-container font-open-sans home-background'>
                         <h2 className='font-m-plus-rounded home-underline'>
                             Courses
                         </h2>
@@ -157,21 +157,21 @@ const Projects = () => {
                         itemClass='carousel-container-item'>
                         <div>
                             <ProjectItem
-                                body_text='Zao shang hao'
+                                body_text='Placeholder'
                                 title='Med Project'
                                 img_url={'https://images.ecestaticos.com/Bosqgwi-bRoiiu2s89AjrlamxUE=/0x70:1716x1040/1338x751/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8db%2F8b6%2Faa5%2F8db8b6aa54b585253e15f79a68447aeb.jpg'}
                                 project_url={'https://github.com/sleepypower/proyecto_medico'} />
                         </div>
                         <div>
                             <ProjectItem
-                                body_text='Zao shang hao'
+                                body_text='Placeholder'
                                 title='Med Project'
                                 img_url={'https://images.ecestaticos.com/Bosqgwi-bRoiiu2s89AjrlamxUE=/0x70:1716x1040/1338x751/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8db%2F8b6%2Faa5%2F8db8b6aa54b585253e15f79a68447aeb.jpg'}
                                 project_url={'https://github.com/sleepypower/proyecto_medico'} />
                         </div>
                         <div>
                             <ProjectItem
-                                body_text='Zao shang hao'
+                                body_text='Placeholder'
                                 title='Med Project'
                                 img_url={'https://images.ecestaticos.com/Bosqgwi-bRoiiu2s89AjrlamxUE=/0x70:1716x1040/1338x751/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8db%2F8b6%2Faa5%2F8db8b6aa54b585253e15f79a68447aeb.jpg'}
                                 project_url={'https://github.com/sleepypower/proyecto_medico'} />
