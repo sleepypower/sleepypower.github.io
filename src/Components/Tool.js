@@ -18,7 +18,8 @@ const Tool = ({ icon, title, hoverColor }) => {
     return (
         <div className='tool-container font-open-sans'
             onMouseOver={() => setcurrentColor(hoverColor)}
-            onMouseOut={() => setcurrentColor('#C2C2C2')}>
+            onMouseOut={() => setcurrentColor('#C2C2C2')}
+            onClick={() => { }}>
             <div className='tool-icon' style={{ color: currentColor }}>
                 {icon}
             </div>

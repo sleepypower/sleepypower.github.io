@@ -24,9 +24,17 @@ root.render(
     <Routes>
       {/* All routes go inside here */}
       <Route path="/" element={<Home />} />
-      <Route path="/skills" element={<Skills />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/app" element={<App />} />
+      <Route path="skills" element={<Skills />} />
+      <Route path="projects" element={<Projects />} />
+      <Route path="app" element={<App />} />
+      <Route
+        path="*"
+        element={
+          <main style={{ padding: "1rem" }}>
+            <p>404</p>
+          </main>
+        }
+      />
 
     </Routes>
   </BrowserRouter>
