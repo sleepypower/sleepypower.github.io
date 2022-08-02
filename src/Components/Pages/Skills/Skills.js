@@ -12,10 +12,9 @@ const Skills = () => {
                     Python
                 </h2>
                 <p>
-                    Worked with Object oriented programming pandas, numpy, scikit-learn. I'm
-                    currently learning to become a data scientist. Implemented a
-                    sudoku solver as final project for Harvard's CS50
-                    introduction to computer science. Currently enrolled in
+                    Worked with Object oriented programming, pandas and numpy.
+                    Implemented a sudoku solver as final project for Harvard's
+                    CS50 introduction to computer science. Currently enrolled in
                     datacamp's data scientist with python certification and
                     Andrew Ng's machine Learning specialization.
 
