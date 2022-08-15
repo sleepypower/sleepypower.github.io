@@ -32,10 +32,10 @@ const Home = () => {
                     About me
                 </h2>
                 <p>
-                    I'm David Meléndez, and I'm currently a student at
-                    Universidad del Rosario. I consider myself as an entreprenur
-                    , a self-taught person and someone with a lot of random ideas.
-                    I'm currently building a dating app called glera
+                    I'm David Meléndez and I'm currently a student at Universidad
+                    del Rosario. I consider myself an entrepreneur, a self-taught
+                    person, and someone who has lots of different ideas to offer. I'm currently
+                    building a dating app called glera.
                 </p>
             </div>
 
