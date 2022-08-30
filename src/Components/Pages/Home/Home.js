@@ -19,7 +19,7 @@ const Home = () => {
                     Hello!
                 </h1>
                 <h2 className='home-subtitle-text'>
-                    I'm <span>David</span>, a software developer based in Bogotá, Colombia
+                    I'm <span>David</span>, a software developer student based in Bogotá, Colombia
                 </h2>
             </div>
 
